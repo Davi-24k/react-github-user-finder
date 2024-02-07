@@ -22,11 +22,11 @@ const User = ({
             )}
             <div className={classes.stats}>
                 <div>
-                    <p>Seguidores:</p>
+                    <p>Followers:</p>
                     <p className={classes.number}>{followers}</p>
                 </div>
                 <div>
-                    <p>Seguindo:</p>
+                    <p>Following:</p>
                     <p className={classes.number}>{following}</p>
                 </div>
             </div>
