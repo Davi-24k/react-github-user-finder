@@ -29,7 +29,7 @@ const User = ({
                     <p>Following:</p>
                     <p className={classes.number}>{following}</p>
                 </div>
-            </div>
+            </div> 
             <Link to={`/repos/${login}`}></Link>
         </div>
     );
